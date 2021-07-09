@@ -12,7 +12,7 @@ app.use(cors());
 app.use(express.json());
 
 
-const dbURI = 'mongodb+srv://admin1:testing123@madame-cc.h5u9q.mongodb.net/mdmcc?retryWrites=true&w=majority';
+const dbURI = '';
 mongoose.connect(dbURI, {
   useNewUrlParser:true,
   useUnifiedTopology:true,
